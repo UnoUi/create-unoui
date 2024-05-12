@@ -1,0 +1,18 @@
+{
+  "name": "unoui-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx unocss ./src/**/*.{html,js,ts} -o ./src/assets/css/uno.css --watch & npx live-server ./src/",
+    "unocss:watch": "npx unocss ./src/**/*.{html,js,ts} -o ./src/assets/css/uno.css --watch",
+    "unocss:build": "npx unocss ./**/*.{html,js,ts} -o ./assets/css/uno.css --minify"
+  },
+  "author": "getShCc",
+  "license": "MIT",
+  "description": "UnoUI Starter",
+  "devDependencies": {
+    "@unocss/cli": "^0.60.2",
+    "@unocss/reset": "^0.60.2",
+    "unocss": "^0.60.2"
+  }
+}
